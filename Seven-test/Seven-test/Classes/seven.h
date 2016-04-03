@@ -11,5 +11,5 @@
 @interface seven : UIControl
 
 - (void)startAnimation;
-
+- (void)stopAnimation;
 @end
