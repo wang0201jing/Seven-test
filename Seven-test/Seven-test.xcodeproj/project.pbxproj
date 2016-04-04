@@ -14,6 +14,7 @@
 		D282304F1CB1780000485523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D282304E1CB1780000485523 /* Assets.xcassets */; };
 		D28230521CB1780000485523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28230501CB1780000485523 /* LaunchScreen.storyboard */; };
 		D282305C1CB1788B00485523 /* seven.m in Sources */ = {isa = PBXBuildFile; fileRef = D282305B1CB1788B00485523 /* seven.m */; };
+		D28230821CB26FB500485523 /* TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = D28230811CB26FB500485523 /* TEST.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		D28230531CB1780000485523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D282305A1CB1788B00485523 /* seven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seven.h; sourceTree = "<group>"; };
 		D282305B1CB1788B00485523 /* seven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = seven.m; sourceTree = "<group>"; };
+		D28230801CB26FB500485523 /* TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST.h; sourceTree = "<group>"; };
+		D28230811CB26FB500485523 /* TEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				D282305A1CB1788B00485523 /* seven.h */,
 				D282305B1CB1788B00485523 /* seven.m */,
+				D28230801CB26FB500485523 /* TEST.h */,
+				D28230811CB26FB500485523 /* TEST.m */,
 			);
 			name = Classes;
 			path = "Seven-test/Classes";
@@ -163,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28230821CB26FB500485523 /* TEST.m in Sources */,
 				D282304A1CB1780000485523 /* ViewController.m in Sources */,
 				D28230471CB1780000485523 /* AppDelegate.m in Sources */,
 				D28230441CB1780000485523 /* main.m in Sources */,
@@ -313,6 +319,7 @@
 				D28230581CB1780000485523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
