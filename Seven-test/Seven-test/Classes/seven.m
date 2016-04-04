@@ -28,4 +28,9 @@
     NSLog(@"假装停止了动画");
 }
 
+- (void)begin{
+
+    NSLog(@"begin");
+}
+
 @end
