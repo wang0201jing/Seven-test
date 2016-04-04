@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 s.name         = "Seven-test"
 s.version      = "1.0.0"
 s.summary      = "hahhah!"
-s.homepage     = "https://www.google.com"
+s.homepage     = "https://github.com/wang0201jing/Seven-test"
 s.license      = "MIT"
 s.author       = { "wj" => "wang0201jing@163.com" }
 s.platform     = :ios, "7.0"
