@@ -33,4 +33,9 @@
     NSLog(@"begin");
 }
 
+- (void)end{
+
+    NSLog(@"end");
+}
+
 @end
